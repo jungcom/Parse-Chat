@@ -13,6 +13,9 @@
 		4E39E58D216D0B0F007938B3 /* Parse_Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E39E58B216D0B0F007938B3 /* Parse_Chat.xcdatamodeld */; };
 		4E39E58F216D0B10007938B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E39E58E216D0B10007938B3 /* Assets.xcassets */; };
 		4E39E592216D0B10007938B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E39E590216D0B10007938B3 /* LaunchScreen.storyboard */; };
+		4EBB6467216D69FD000E2D78 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB6466216D69FD000E2D78 /* ChatViewController.swift */; };
+		4EBB6469216D6D14000E2D78 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB6468216D6D14000E2D78 /* ChatCell.swift */; };
+		4EBB646B216D7136000E2D78 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB646A216D7136000E2D78 /* Message.swift */; };
 		762393118F7717673E66A733 /* Pods_Parse_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BD46E3AC6D4B3C494C5FDA /* Pods_Parse_Chat.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		4E39E58E216D0B10007938B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E39E591216D0B10007938B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E39E593216D0B10007938B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBB6466216D69FD000E2D78 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4EBB6468216D6D14000E2D78 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		4EBB646A216D7136000E2D78 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D2BD46E3AC6D4B3C494C5FDA /* Pods_Parse_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,15 +78,26 @@
 		4E39E583216D0B0F007938B3 /* Parse Chat */ = {
 			isa = PBXGroup;
 			children = (
+				4EBB6465216D69CF000E2D78 /* ViewController */,
 				4E39E584216D0B0F007938B3 /* AppDelegate.swift */,
-				4E39E586216D0B0F007938B3 /* LoginViewController.swift */,
 				4E39E588216D0B0F007938B3 /* Main.storyboard */,
 				4E39E58E216D0B10007938B3 /* Assets.xcassets */,
 				4E39E590216D0B10007938B3 /* LaunchScreen.storyboard */,
 				4E39E593216D0B10007938B3 /* Info.plist */,
 				4E39E58B216D0B0F007938B3 /* Parse_Chat.xcdatamodeld */,
+				4EBB6468216D6D14000E2D78 /* ChatCell.swift */,
+				4EBB646A216D7136000E2D78 /* Message.swift */,
 			);
 			path = "Parse Chat";
+			sourceTree = "<group>";
+		};
+		4EBB6465216D69CF000E2D78 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4E39E586216D0B0F007938B3 /* LoginViewController.swift */,
+				4EBB6466216D69FD000E2D78 /* ChatViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		CCBFC4D748BB7B31C5213DD6 /* Frameworks */ = {
@@ -207,6 +224,9 @@
 			files = (
 				4E39E58D216D0B0F007938B3 /* Parse_Chat.xcdatamodeld in Sources */,
 				4E39E587216D0B0F007938B3 /* LoginViewController.swift in Sources */,
+				4EBB6467216D69FD000E2D78 /* ChatViewController.swift in Sources */,
+				4EBB646B216D7136000E2D78 /* Message.swift in Sources */,
+				4EBB6469216D6D14000E2D78 /* ChatCell.swift in Sources */,
 				4E39E585216D0B0F007938B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
