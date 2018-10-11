@@ -11,6 +11,7 @@ import Parse
 
 class Message: PFObject, PFSubclassing {
     @NSManaged var text: String
+    @NSManaged var user: PFUser
     
     class func parseClassName() -> String {
         return "Message"
